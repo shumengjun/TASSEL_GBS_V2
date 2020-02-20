@@ -19,98 +19,33 @@ Using TASSEL GBS V2 pipeline to call SNPs with GBS raw data of **94 ponderosa pi
 - Minimum Kmer count: 5
 - Minimum count reads: 1
 - Output: A .db file
-
-
-Step 2: db to tag fq file
-Code:
-•	S2_dbtotagfq.sh
-Input:
-•	/home/mshu/GBS_96/S2_tagfromdb/input/GBS_S1.db
-•	Plugin: -TagExportToFastqPlugin
-•	Minimum count reads: 1
-Output:
-•	/home/mshu/GBS_96/S2_dbtotagfq/output/GBS_S2_tag.fa.gz
-•	S2_dbtotagfq.out
-Duration:
-•	
-•	Merced cluster standard queue
-Note:
-•	S2_dbtotagfq.out file contains the information about total number of tags written (7462645)
-
-Step 3_bwa_1:
-Code:
-•	S3_BWA_1.sh
-Input:
-•	/home/mshu/GBS_96/Refgenome/Pita_chr12.fasta
-Output:
-•	Five files in folder /home/mshu/GBS_96/S3_BWA
-•	S3_BWA_1.out
-Duration:
-•	16.5 hours
-•	Merced cluster standard queue
-Note:
-
-Step 3_bwa_2:
-Code:
-•	S3_BWA_2.sh
-Input:
-•	/home/mshu/GBS_96/S3_BWA/input/GBS_S2_tag.fa.gz
-•	Five files in folder /home/mshu/GBS_96/S3_BWA
-Output:
-•	S3_BWA_2.out
-•	/home/mshu/GBS_96/S3_BWA/output/GBS_S2_tag.sai
-Duration:
-•	30 minutes
-•	Merced cluster standard queue
-Note:
-•	Using output file of step 2 GBS_S2_tag.fa.gz as the input file
-
-Step 3_bwa_3:
-Code:
-•	S3_BWA_3.sh
-Input:
-•	/home/mshu/GBS_96/S3_BWA/input/GBS_S2_tag.fa.gz
-•	/home/mshu/GBS_96/S3_BWA/output/GBS_S2_tag.sai
-•	Five files in folder /home/mshu/GBS_96/S3_BWA
-Output:
-•	S3_BWA_3.out
-•	/home/mshu/GBS_96/S3_BWA/output/GBS_96_BWA.sam
-Duration:
-•	30 minutes
-•	Merced cluster standard queue
-Note:
-•	In the S3_BWA_3.out, there is no information about the percentage of alignment.
-
-Step 3_bowtie2_1:
-Code:
-•	S3_bowtie2_1.sh
-Input:
-•	/home/mshu/GBS_96/Refgenome/Pita_chr12.fasta
-Output:
-•	Five files in folder /home/mshu/GBS_96/S3_bowtie2
-•	S3_bowtie2_1.out
-Duration:
-•	16.5 hours
-•	Merced cluster standard queue
-Note:
-
-Step 3_bowtie2_2:
-Code:
-•	S3_bowtie2_2.sh
-Input:
-•	/home/mshu/GBS_96/S3_bowtie2/input/GBS_S2_tag.fa.gz
-•	Five files in folder /home/mshu/GBS_96/S3_bowtie2
-Output:
-•	/home/mshu/GBS_96/S3_bowtie2/output/GBS_96_bowtie2.sam
-•	S3_bowtie2_2.out
-Duration:
-•	7 minutes
-•	Merced cluster standard queue
-Note:
-•	Using output file of step 2 GBS_S2_tag.fa.gz as the input file 
-•	The S3_bowtie2_2.out file contains the information about number of reads being aligned o time, exactly 1 time and more than 1 times
-
-Step 4_samtodb:
+## Step 2: db to tag fq file
+- Code: S2_dbtotagfq.sh
+- Input: .db file
+- Plugin: -TagExportToFastqPlugin
+- Minimum count reads: 1
+- Output: .fa.gz file 
+## Step 3_bwa_1:
+- Code: S3_BWA_1.sh
+- Input: reference fasta file
+- Output: five files
+## Step 3_bwa_2:
+- Code: S3_BWA_2.sh
+- Input: .fa.gz file and the five files from Step 3_bwa_1
+- Output: .sai file
+## Step 3_bwa_3:
+- Code: S3_BWA_3.sh
+- Input: .fa.gz file, the five files from Step 3_bwa_1, and the .sai file
+- Output: .sam file
+## Step 3_bowtie2_1:
+- Code: S3_bowtie2_1.sh
+- Input: reference fasta file
+- Output: five files and .fa.gz file
+## Step 3_bowtie2_2:
+- Code: S3_bowtie2_2.sh
+- Input: five files and .fa.gz file from step 3_bowtie2_1
+- Output: .sam file
+## Step 4_samtodb:
 Code:
 •	S4_samtodb.sh
 Input:
