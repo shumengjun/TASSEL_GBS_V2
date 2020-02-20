@@ -9,6 +9,8 @@ Using TASSEL GBS V2 pipeline to call SNPs with GBS raw data of **94 ponderosa pi
 - [Raw fasta file](https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA527618&o=acc_s%3Aa) produced by GBS (Genotyping by sequencing) with restriction enzyme *Ape*KI
 - Reference genome of [**loblolly pine** (*Pinus taeda*)](https://treegenesdb.org/FTP/Genomes/Pita/)
 - Barcode information 
+## Output File
+[VCF file](https://datadryad.org/stash/dataset/doi:10.5061/dryad.6fv8fb4)
 ## Step 1: fastq to db file
 - Code: S1_fqtodb.sh
 - Input: Two fasta file & one barcode file
