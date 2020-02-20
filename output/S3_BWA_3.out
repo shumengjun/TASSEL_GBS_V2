@@ -1,0 +1,119 @@
+[bwa_aln_core] convert to sequence coordinate... 67.06 sec
+[bwa_aln_core] refine gapped alignments... 4.91 sec
+[bwa_aln_core] print alignments... 0.61 sec
+[bwa_aln_core] 262144 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 40.45 sec
+[bwa_aln_core] refine gapped alignments... 3.07 sec
+[bwa_aln_core] print alignments... 0.57 sec
+[bwa_aln_core] 524288 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 33.21 sec
+[bwa_aln_core] refine gapped alignments... 2.32 sec
+[bwa_aln_core] print alignments... 0.52 sec
+[bwa_aln_core] 786432 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 25.14 sec
+[bwa_aln_core] refine gapped alignments... 2.67 sec
+[bwa_aln_core] print alignments... 0.56 sec
+[bwa_aln_core] 1048576 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 29.74 sec
+[bwa_aln_core] refine gapped alignments... 2.54 sec
+[bwa_aln_core] print alignments... 0.53 sec
+[bwa_aln_core] 1310720 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 19.42 sec
+[bwa_aln_core] refine gapped alignments... 2.34 sec
+[bwa_aln_core] print alignments... 0.56 sec
+[bwa_aln_core] 1572864 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 18.57 sec
+[bwa_aln_core] refine gapped alignments... 2.74 sec
+[bwa_aln_core] print alignments... 0.58 sec
+[bwa_aln_core] 1835008 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 17.25 sec
+[bwa_aln_core] refine gapped alignments... 2.45 sec
+[bwa_aln_core] print alignments... 0.51 sec
+[bwa_aln_core] 2097152 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 16.15 sec
+[bwa_aln_core] refine gapped alignments... 2.76 sec
+[bwa_aln_core] print alignments... 0.65 sec
+[bwa_aln_core] 2359296 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 16.47 sec
+[bwa_aln_core] refine gapped alignments... 2.33 sec
+[bwa_aln_core] print alignments... 0.53 sec
+[bwa_aln_core] 2621440 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 15.13 sec
+[bwa_aln_core] refine gapped alignments... 2.73 sec
+[bwa_aln_core] print alignments... 0.55 sec
+[bwa_aln_core] 2883584 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 15.06 sec
+[bwa_aln_core] refine gapped alignments... 2.74 sec
+[bwa_aln_core] print alignments... 0.56 sec
+[bwa_aln_core] 3145728 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 15.09 sec
+[bwa_aln_core] refine gapped alignments... 2.49 sec
+[bwa_aln_core] print alignments... 0.57 sec
+[bwa_aln_core] 3407872 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 15.01 sec
+[bwa_aln_core] refine gapped alignments... 2.39 sec
+[bwa_aln_core] print alignments... 0.57 sec
+[bwa_aln_core] 3670016 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 14.95 sec
+[bwa_aln_core] refine gapped alignments... 2.31 sec
+[bwa_aln_core] print alignments... 0.51 sec
+[bwa_aln_core] 3932160 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 14.93 sec
+[bwa_aln_core] refine gapped alignments... 2.47 sec
+[bwa_aln_core] print alignments... 0.52 sec
+[bwa_aln_core] 4194304 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 22.95 sec
+[bwa_aln_core] refine gapped alignments... 2.19 sec
+[bwa_aln_core] print alignments... 0.62 sec
+[bwa_aln_core] 4456448 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 39.93 sec
+[bwa_aln_core] refine gapped alignments... 1.80 sec
+[bwa_aln_core] print alignments... 0.50 sec
+[bwa_aln_core] 4718592 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 38.98 sec
+[bwa_aln_core] refine gapped alignments... 2.35 sec
+[bwa_aln_core] print alignments... 0.67 sec
+[bwa_aln_core] 4980736 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 49.24 sec
+[bwa_aln_core] refine gapped alignments... 2.66 sec
+[bwa_aln_core] print alignments... 0.76 sec
+[bwa_aln_core] 5242880 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 49.69 sec
+[bwa_aln_core] refine gapped alignments... 4.18 sec
+[bwa_aln_core] print alignments... 0.71 sec
+[bwa_aln_core] 5505024 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 68.49 sec
+[bwa_aln_core] refine gapped alignments... 2.71 sec
+[bwa_aln_core] print alignments... 0.72 sec
+[bwa_aln_core] 5767168 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 34.95 sec
+[bwa_aln_core] refine gapped alignments... 2.58 sec
+[bwa_aln_core] print alignments... 0.72 sec
+[bwa_aln_core] 6029312 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 22.73 sec
+[bwa_aln_core] refine gapped alignments... 2.44 sec
+[bwa_aln_core] print alignments... 0.72 sec
+[bwa_aln_core] 6291456 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 15.15 sec
+[bwa_aln_core] refine gapped alignments... 2.50 sec
+[bwa_aln_core] print alignments... 0.69 sec
+[bwa_aln_core] 6553600 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 14.09 sec
+[bwa_aln_core] refine gapped alignments... 2.47 sec
+[bwa_aln_core] print alignments... 0.63 sec
+[bwa_aln_core] 6815744 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 14.15 sec
+[bwa_aln_core] refine gapped alignments... 2.48 sec
+[bwa_aln_core] print alignments... 0.57 sec
+[bwa_aln_core] 7077888 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 14.04 sec
+[bwa_aln_core] refine gapped alignments... 2.48 sec
+[bwa_aln_core] print alignments... 0.62 sec
+[bwa_aln_core] 7340032 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 13.52 sec
+[bwa_aln_core] refine gapped alignments... 2.29 sec
+[bwa_aln_core] print alignments... 0.30 sec
+[bwa_aln_core] 7462645 sequences have been processed.
+[main] Version: 0.7.17-r1188
+[main] CMD: /home/mshu/bwa-0.7.17/bwa samse /home/mshu/GBS_96/S3_BWA/Pita_chr12.fasta /home/mshu/GBS_96/S3_BWA/output/GBS_S2_tag.sai /home/mshu/GBS_96/S3_BWA/input/GBS_S2_tag.fa.gz
+[main] Real time: 1217.705 sec; CPU: 877.905 sec
